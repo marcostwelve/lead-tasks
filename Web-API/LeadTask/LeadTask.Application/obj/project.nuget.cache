@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "UVvmu18TDUE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marquinhos\\Downloads\\projetos\\Full-Stack\\Lead-task\\Web-API\\LeadTask\\LeadTask.Application\\LeadTask.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marquinhos\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Marquinhos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\Marquinhos\\Downloads\\projetos\\Full-Stack\\Lead-task\\Web-API\\LeadTask\\LeadTask.Application\\LeadTask.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Marquinhos\\Downloads\\projetos\\Full-Stack\\Lead-task\\Web-API\\LeadTask\\LeadTask.Application\\LeadTask.Application.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Infra.Data.deps.json
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Infra.Data.runtimeconfig.json
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Infra.Data.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Infra.Data.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Domain.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\bin\Debug\net8.0\LeadTask.Domain.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.AssemblyInfo.cs
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.982C4C18.Up2Date
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\refint\LeadTask.Infra.Data.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\LeadTask.Infra.Data.genruntimeconfig.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Infra.Data\obj\Debug\net8.0\ref\LeadTask.Infra.Data.dll

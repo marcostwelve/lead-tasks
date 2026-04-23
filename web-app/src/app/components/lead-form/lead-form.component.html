@@ -1,0 +1,60 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h4 class="mb-0">{{ isEditMode ? 'Editar Lead' : 'Novo Lead' }}</h4>
+        </div>
+        <div class="card-body">
+          
+          <form [formGroup]="leadForm" (ngSubmit)="onSubmit()">
+            
+            <div class="mb-3">
+              <label class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" formControlName="name"
+                     [ngClass]="{'is-invalid': leadForm.get('name')?.invalid && leadForm.get('name')?.touched}">
+              
+              <div class="invalid-feedback" *ngIf="leadForm.get('name')?.hasError('required')">
+                O nome é obrigatório.
+              </div>
+              <div class="invalid-feedback" *ngIf="leadForm.get('name')?.hasError('minlength')">
+                O nome deve ter pelo menos 3 caracteres.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">E-mail</label>
+              <input type="email" class="form-control" formControlName="email"
+                     [ngClass]="{'is-invalid': leadForm.get('email')?.invalid && leadForm.get('email')?.touched}">
+              
+              <div class="invalid-feedback" *ngIf="leadForm.get('email')?.hasError('required')">
+                O e-mail é obrigatório.
+              </div>
+              <div class="invalid-feedback" *ngIf="leadForm.get('email')?.hasError('email')">
+                Digite um formato de e-mail válido.
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label">Status Inicial</label>
+              <select class="form-select" formControlName="status">
+                <option value="New">New</option>
+                <option value="Qualified">Qualified</option>
+                <option value="Won">Won</option>
+                <option value="Lost">Lost</option>
+              </select>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-success" [disabled]="leadForm.invalid">
+                {{ isEditMode ? 'Atualizar Lead' : 'Salvar Lead' }}
+              </button>
+            </div>
+            
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

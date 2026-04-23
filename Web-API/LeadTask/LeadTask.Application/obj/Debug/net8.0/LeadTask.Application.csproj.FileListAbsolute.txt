@@ -1,0 +1,15 @@
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\bin\Debug\net8.0\LeadTask.Application.deps.json
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\bin\Debug\net8.0\LeadTask.Application.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\bin\Debug\net8.0\LeadTask.Application.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\bin\Debug\net8.0\LeadTask.Domain.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\bin\Debug\net8.0\LeadTask.Domain.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.csproj.AssemblyReference.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.AssemblyInfoInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.AssemblyInfo.cs
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.csproj.CoreCompileInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.01323180.Up2Date
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\refint\LeadTask.Application.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\LeadTask.Application.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Application\obj\Debug\net8.0\ref\LeadTask.Application.dll

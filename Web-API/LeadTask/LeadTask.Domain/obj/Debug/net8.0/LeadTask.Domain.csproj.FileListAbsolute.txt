@@ -1,0 +1,11 @@
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\bin\Debug\net8.0\LeadTask.Domain.deps.json
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\bin\Debug\net8.0\LeadTask.Domain.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\bin\Debug\net8.0\LeadTask.Domain.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.AssemblyInfoInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.AssemblyInfo.cs
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\refint\LeadTask.Domain.dll
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\LeadTask.Domain.pdb
+C:\Users\Marquinhos\Downloads\projetos\Full-Stack\Lead-task\Web-API\LeadTask\LeadTask.Domain\obj\Debug\net8.0\ref\LeadTask.Domain.dll

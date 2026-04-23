@@ -1,0 +1,64 @@
+<div class="container mt-5">
+
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-4">Gestão de Leads</h2>
+    <button class="btn btn-success" routerLink="/leads/new">+ Novo Lead</button>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-5">
+      <input type="text" class="form-control" placeholder="Buscar por nome ou e-mail..." [(ngModel)]="search">
+    </div>
+    <div class="col-md-4">
+      <select class="form-select" [(ngModel)]="selectedStatus">
+        <option value="">Todos os Status</option>
+        <option value="New">New</option>
+        <option value="Qualified">Qualified</option>
+        <option value="Won">Won</option>
+        <option value="Lost">Lost</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-primary w-100" (click)="onSearch()">Filtrar</button>
+    </div>
+  </div>
+
+  <div class="table-responsive bg-white shadow-sm rounded">
+    <table class="table table-hover mb-0">
+      <thead class="table-dark">
+        <tr>
+          <th>Nome</th>
+          <th>E-mail</th>
+          <th>Status</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let lead of leads">
+          <td class="align-middle">{{ lead.name }}</td>
+          <td class="align-middle">{{ lead.email }}</td>
+          <td class="align-middle">
+            <span class="badge" 
+              [ngClass]="{
+                'bg-info text-dark': lead.status === 'New',
+                'bg-warning text-dark': lead.status === 'Qualified',
+                'bg-success': lead.status === 'Won',
+                'bg-danger': lead.status === 'Lost'
+              }">
+              {{ lead.status }}
+            </span>
+          </td>
+          <td class="align-middle">
+            <button class="btn btn-sm btn-outline-primary me-2" [routerLink]="['/leads/edit', lead.id]">Editar</button>
+            <button class="btn btn-sm btn-outline-secondary me-2" [routerLink]="['/leads', lead.id, 'tasks']">Tasks</button>
+            <button class="btn btn-sm btn-outline-danger" (click)="deleteLead(lead.id)">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div *ngIf="leads.length === 0" class="text-center p-4 text-muted">
+      Nenhum lead encontrado com estes filtros.
+    </div>
+  </div>
+</div>

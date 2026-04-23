@@ -1,0 +1,35 @@
+<div class="container mt-4">
+  <h3>Tarefas do Lead #{{leadId}}</h3>
+  
+<form (ngSubmit)="addTask()" class="input-group mb-4">
+  <input type="text" class="form-control" name="taskTitle"
+         placeholder="Digite o título da tarefa e aperte Enter..." 
+         [(ngModel)]="newTaskTitle">
+  <button class="btn btn-primary" type="submit" [disabled]="!newTaskTitle.trim()">
+    Adicionar
+  </button>
+</form>
+
+  <div class="list-group">
+    <div *ngFor="let task of tasks" class="list-group-item d-flex justify-content-between align-items-center">
+      <div class="flex-grow-1 me-3">
+        <input type="text" class="form-control form-control-sm border-0 bg-transparent" 
+           [(ngModel)]="task.title" 
+           (blur)="onStatusChange(task, $event)"
+           (keyup.enter)="onStatusChange(task, $event)"
+           [ngClass]="{ 'task-done': task.status === 'Done' }">
+      </div>
+      
+      <div class="d-flex gap-2">
+        <select class="form-select form-select-sm" [ngModel]="task.status" (ngModelChange)="updateTaskStatus(task, $event)">
+          <option value="Todo">Todo</option>
+          <option value="Doing">Doing</option>
+          <option value="Done">Done</option>
+        </select>
+        <button class="btn btn-sm btn-danger" (click)="deleteTask(task.id)">Excluir</button>
+      </div>
+    </div>
+  </div>
+  
+  <button class="btn btn-link mt-3" routerLink="/leads">Voltar para Leads</button>
+</div>
